@@ -1,16 +1,11 @@
 body {
-    background-color: #080808;
-    color: #fbf8f8;
-  }
-  
-  .dark-mode {
     background-color: #000000;
     color: #ffffff;
   }
   
   header {
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #080808;
   }
   
   nav ul {
@@ -46,4 +41,4 @@ body {
   .gallery {
     display: grid;
     grid-template-columns
-  
+  }
