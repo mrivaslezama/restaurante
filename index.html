@@ -1,14 +1,68 @@
+<!-- madeup! -->
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Svelte + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-    <h1>Restaurante </h1>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Name</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#contact">Contactanos</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Bienvenido al restaurante la tia Romy</h1>
+      <p>Descubre un mundo de delicias culinarias en este restaurante. Desde el momento en que entras, te envuelve una sensación cálida, encantadora y acogedora. Es el lugar perfecto para pasar tiempo con amigos y familiares.
+        Un ambiente acogedor que te hace sentir como en casa. El lugar y los detalles crean una atmósfera relajante y acogedora. No importa si estás buscando una cena íntima o una reunión animada, este restaurante tiene el ambiente ideal para cualquier ocasión.</p>
+      <br>  
+      <p>La comida aquí es simplemente excepcional. Cada plato está preparado con amor y pasión, y eso se nota en cada bocado. Los ingredientes frescos y de alta calidad se combinan hábilmente para crear sabores increíbles. La cocina es como la de casa, reconfortante y llena de sabores auténticos.
+        El menú ofrece una amplia variedad de opciones para todos los gustos. Desde platos tradicionales hasta creaciones más innovadoras, hay algo para satisfacer a todos los comensales. Ya sea que prefieras mariscos frescos, cortes de carne jugosos o opciones vegetarianas, este lugar tiene algo para ti.</p>
+      <a href="#menu" class="btn">View Menu</a>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Latest Blog Posts</h2>
+    <div class="blog-posts">
+      <!-- Add blog post content here -->
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="/public/TiaRomyFotos/chuletas.jpeg" alt="Chuletas">
+    </div>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="/public/TiaRomyFotos/carbonara.jpg" alt="Carbonara">
+      <!-- Add more images here -->
+    </div>
+  </section>
+  
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <br>
+        <input type="text" id="name" name="name" required>
+      <button>Enviar</button>
+<!-- untilhere madeup!-->
+
   </body>
 </html>
